@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAPTUR E-TECH Plug-in</title>
+  <link rel="preconnect"
+    href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+<script src="JS/blockScrolled.js" defer></script>
+<script src="JS/accordion.js" defer></script>
+<script src="JS/smoothScroll.js" defer></script>
+<script src="JS/tabs.js" defer></script>
+<script src="JS/modal.js" defer></script>
+<script src="JS/burger.js" defer></script>
+<script src="JS/sendForm.js" defer></script>
+
+</head>
+<body>
+  <!-- header (start) -->
+  <header class="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="header-main">
+          <a href="#" class="logo header__logo">
+            <img src="img/renault-logo.png"
+              alt="Logo: CAPTUR"
+              class="logo__img">
+          </a>
+          <!-- /.logo -->
+          <nav class="menu menu-active">
+            <ul class="menu-list">
+              <li class="menu-list__item">
+                <a href="#design"
+                  class="menu-list__link">
+                  Design
+                </a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#feature"
+                  class="menu-list__link">
+                  Technology
+                </a>
+              </li>
+              <li class="menu-list__item">
+                <a href="#contacts"
+                  class="menu-list__link">
+                  Book a Test Drive
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- /.menu -->
+        </div>
+        <!-- /.header-main -->
+        <a href="https://www.renault.ee/ee/index.html" class="logo">
+          Renault Estonia
+        </a>
+          <button class="hamburger-menu hamburger-menu-active" aria-label="Burger menu">
+        </button>
+      </div>
+      <!-- /.header-wrapper -->
+    </div>
+  </header>
+  <!-- header (end) -->
+
+  <!-- main (start) -->
+  <section class="main" id="main">
+    <div class="container">
+      <div class="main-wrapper">
+        <div class="offer">
+          <h1 style="text-align:left;float:left;" class="main__title">CAPTUR</h1>
+          <h2 style="text-align:right;float:right;"class="main__title_e">E-TECH Plug-in</h2>
+          <p class="main__descr">
+          Adopted to your lifestyle!</p>
+          <a href="#contacts" type="button" class="button main__button">
+            Book a Test Drive
+          </a>
+          <a href="#design" class="main__scroll" aria-label="к следующему экрану"></a>
+
+        </div>
+        <!-- /.offer -->
+        <div class="main-img">
+          <a href="https://youtu.be/dkrFZSWyklU" class="play">
+
+            Watch a video
+          </a>
+
+        </div>
+      </div>
+      <!-- /.main-wrapper -->
+    </div>
+  </section>
+  <!-- main (end) -->
+
+  <!-- design (start) -->
+  <section class="section design" id="design">
+    <div class="container">
+      <div class="design-wrapper">
+        <div class="design-block">
+          <img src="img/car/image-5.png" alt="CAPTUR" class="feature__img design-block__img" data-tabs-field="interior">
+          <img src="img/car/image-4.png" alt="CAPTUR" class="feature__img design-block__img hidden" data-tabs-field="body">
+          <div class="design-text">
+            <h2 class="section__title design__title">
+              Comfort in Details
+            </h2>
+            <h2 class="section__title design__title hidden">
+              Electric on Demand
+            </h2>
+            <ul class="design-list">
+              <li>
+                <button type="button" class="design-list__item design-list__item_active" data-tabs-handler="interior">Interior</button>
+              </li>
+              <li>
+                <button type="button" class="design-list__item" data-tabs-handler="body">Exterior</button>
+              </li>
+            </ul>
+            <!-- /.design-list -->
+            <ul>
+              <li class="design__descr" data-tabs-field="interior">
+                <p class="design__description-text">
+                  The new CAPTUR has been completely redesigned.  It features a sophisticated and adaptable interior.  With 18 color combinations available, customize the new Captur to your liking.
+                  The smart cab is equipped with a 23 cm multimedia touch screen tailored to the driver, a 25 cm digital instrument panel, an innovative floating console with a futuristic "E-shifter" gear lever, smart storage places and much more.
+                  The new CAPTUR provides only the best to make the interior experience tailored to you.  Folding bench that can be moved by 16 cm, a record boot volume (up to 536 l) and numerous storage spaces (up to 27 l).
+                </p>
+                <button class="more">
+                  More
+                </button>
+              </li>
+              <li class="design__descr hidden" data-tabs-field="body">
+                <p class="design__description-text">
+The new CAPTUR is more elegant and with more technology at the front and rear, featuring a light signature in the shape of the letter C, which is a recognizable sign of Renault's identity.
+                  Customize the exterior (roof, mirrors, chassis protection) of the new CAPTUR to your liking with 90 possible combinations.
+                </p>
+                <button class="more">
+                  More
+                </button>
+            </li>
+            </ul>
+          </div>
+          <!-- /.design-text -->
+        </div>
+        <!-- /.design-block -->
+        <ul>
+          <li class="design-images" data-tabs-field="interior">
+              <img src="img/design/interior01.jpg" alt="CAPTUR" class="design__img">
+              <img src="img/design/interior02.jpg" alt="CAPTUR" class="design__img">
+              <img src="img/design/interior03.jpg" alt="CAPTUR" class="design__img">
+              <img src="img/design/interior04.jpg" alt="CAPTUR" class="design__img">
+          </li>
+          <li class="design-images hidden" data-tabs-field="body">
+              <img src="img/design/body01.jpg" alt="CAPTUR" class="design__img">
+              <img src="img/design/body02.jpg" alt="CAPTUR" class="design__img">
+              <img src="img/design/body03.jpg" alt="CAPTUR" class="design__img">
+              <img src="img/design/body04.jpg" alt="CAPTUR" class="design__img">
+          </li>
+        </ul>
+      </div>
+      <!-- /.design-wrapper -->
+    </div>
+  </section>
+  <!-- design (end) -->
+
+  <!-- feature (start) -->
+  <section class="section feature" id="feature">
+    <div class="container">
+      <div class="feature-wrapper">
+        <div class="feature-block">
+          <h2 class="section__title feature__title">
+            Technology
+          </h2>
+          <ul class="feautre-list">
+            <li class="feature__item">
+              <button type="button" class="feature__link feature__link_active">
+                <div class="feature-item-wrap">
+                  <span class="feature-item__title">
+                    Engine
+                  </span>
+                </div>
+              </button>
+            <!-- /.feature__link-->
+            <ul class="feature-sub">
+              <li class="feature-sub__item">
+                <p class="feature-sub__name">
+                  The New Captur’s E-TECH Hybrid engine is based on a new-generation 4-cylinder 1.6 petrol engine from the Alliance and adapted to hybrid technology. It is accompanied by two electric motors – an ‘e-engine’ and a High Voltage Starter Generator (HSG) – powered by a 1.2 kWh (230V) battery and an innovative multimode clutchless gearbox. With a total power output of 140 hp, it offers maximum efficiency in use with market-leading dynamic responsiveness. Starting is always 100% electric.
+                </p>
+              </li>
+            </ul>
+              <!-- /.feature-list-sub -->
+            </li>
+            <li class="feature__item">
+              <button type="button" class="feature__link">
+                <div class="feature-item-wrap">
+                  <span class="feature-item__title">
+                    Fuel consumption
+                  </span>
+                </div>
+              </button>
+              <ul class="feature-sub">
+                <li class="feature-sub__item">
+                  <p class="feature-sub__name">
+                    Regenerative braking combined with the high self-recharge capacity of the 1.2 kWh (230V) batteries and the efficiency of the E-TECH system optimizes consumption. This means that up to 80% of driving time in the city can be obtained with all-electric power, for a fuel consumption gain of up to 40% compared with an internal combustion engine in the urban cycle. Its running cost is close to that of the Diesel versions, which disappear from the range.
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="feature__item">
+              <button type="button" class="feature__link">
+                <div class="feature-item-wrap">
+                  <span class="feature-item__title">
+                    Recharge
+                  </span>
+                </div>
+              </button>
+              <ul class="feature-sub hidden">
+                <li class="feature-sub__item">
+                  <p class="feature-sub__name">
+                    The battery of the New Captur E-TECH Hybrid recharges automatically while driving. During deceleration, when the driver lifts his foot off the accelerator pedal and the car is coasting or braking, the electric motor works like a generator to convert the energy produced by the rotation of the wheels into electricity. A “B” position on the shift lever activates advanced regeneration, further optimizing the amount of energy returned to the battery.
+                  </p>
+                </li>
+              </ul>
+            </li>
+            <li class="feature__item">
+              <button type="button" class="feature__link">
+                <div class="feature-item-wrap">
+                  <span class="feature-item__title">
+                    Connectivity
+                  </span>
+                </div>
+              </button>
+              <ul class="feature-sub hidden">
+                <li class="feature-sub__item">
+                  <p class="feature-sub__name">
+                    The New Captur E-TECH Hybrid benefits with the Renault CONNECT ecosystem of a connected universe gathering many services accessible through the mobile application MY Renault and the new multimedia system Renault EASY LINK. The latter has permanent 4G connectivity and enriched services thanks to partners such as Google (address search) and TomTom (traffic info and danger zones).
+                  </p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- /.feature-list -->
+        </div>
+        <!-- /.feature-block -->
+      </div>
+      <!-- /.feature-wrapper -->
+    </div>
+  </section>
+  <!-- feature (end) -->
+
+  <!-- contacts (start) -->
+  <section class="section contacts" id="contacts">
+    <div class="container">
+      <div class="contacts-wrapper">
+        <div class="contacts-form">
+          <h2 class="section__title">
+            Book a Test Drive
+          </h2>
+          <p class="contacts__descr">
+            Please leave your contact information and we will get back to you as soon as possible.
+          </p>
+          <form class="form form-test-drive">
+            <input type="text" class="input" name="name" placeholder="Your Name">
+            <input type="mail" class="input" name="mail" placeholder="Your E-mail">
+            <input type="text" class="input" name="phone" placeholder="Your Phone Number">
+            <button type="submit" class="button form__button">
+              Send
+            </button>
+          </form>
+        </div>
+        <!-- /.contacts-form -->
+      </div>
+      <!-- /.contacts-wrapper -->
+    </div>
+  </section>
+  <!-- contacts (end) -->
+
+  <!-- modal (start) -->
+  <div class="modal hidden">
+    <div class="overlay"></div>
+    <div class="modal-wrapper">
+      <h2 class="section__title modal__title">
+        Detailed Description.
+      </h2>
+      <p class="modal__descr">
+          Please leave your e-mail if you would like to receive more detailes.
+      </p>
+      <button type="button" class="modal__close" aria-label="закрыть модальное окно">
+      </button>
+      <form class="form modal__form">
+        <input type="text" name="name" class="input modal__input" placeholder="Your Name">
+        <input type="mail" name="mail" class="input modal__input" placeholder="Your E-mail">
+        <div class="modal-buttons">
+          <button type="submit" class="button modal__button">
+            Send
+          </button>
+        </div>
+      </form>
+      <!-- /.form modal__form -->
+    </div>
+  </div>
+  <!-- modal (end) -->
+</body>
+</html>
